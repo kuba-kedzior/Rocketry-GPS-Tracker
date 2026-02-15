@@ -19,8 +19,13 @@ Compatibility will be developed for the LEEP Nexus
 Key design decisions:
 
 STM32F103C8T6 was chosen due to its inclusion in the JLCPCB Basic component catalogue.
+
 C1200 Radio module was chosen due to its use in the Telemetrum flight computer (expect similar radio performance)
+
 LE80RE GPS Module Is used for cost effectiveness, datasheet readability, and Compact form factor.
+
 Terminal blocks are used for most Wire connections to make connection possibilities as versitile as possible.
+
 No resistor is added to the CAN bus, allowing for more than 2 trackers on a single bus.
+
 USB power support allows for use a s a groundstation via USB
